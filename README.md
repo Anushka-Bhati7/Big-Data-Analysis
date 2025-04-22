@@ -76,15 +76,18 @@ The goal of this internship project is to perform scalable data analysis on a la
 6. (Optional) Visualization
    Converted Spark output to Pandas for small-scale visualizations like line graphs and histograms.
 # Real-World Applications
-. Transportation Forecasting: Predict high-demand hours to allocate resources efficiently.
-. Dynamic Pricing: Use average fare/mile to improve fare models and customer fairness.
-. Urban Planning: Help cities design better infrastructure based on pickup/dropoff clusters.
-. Anomaly Detection: Detect unusual trips, potential fraud, or system misreporting.
+* Transportation Forecasting: Predict high-demand hours to allocate resources efficiently.
+  
+* Dynamic Pricing: Use average fare/mile to improve fare models and customer fairness.
+  
+*  Urban Planning: Help cities design better infrastructure based on pickup/dropoff clusters.
+  
+* Anomaly Detection: Detect unusual trips, potential fraud, or system misreporting.
 # Final Deliverables
-. ✔️ Clean and documented PySpark script or Jupyter Notebook
-. ✔️ Sample dataset (Excel/CSV for testing)
-. ✔️ Summary of insights in markdown or PDF format
-. ✔️ (Optional) Visualizations for added clarity
-. ✔️ Ready for submission & certificate issuance
+* ✔️ Clean and documented PySpark script or Jupyter Notebook
+* ✔️ Sample dataset (Excel/CSV for testing)
+*✔️ Summary of insights in markdown or PDF format
+* ✔️ (Optional) Visualizations for added clarity
+* ✔️ Ready for submission & certificate issuance
 
 
