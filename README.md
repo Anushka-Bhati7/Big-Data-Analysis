@@ -30,30 +30,61 @@ The goal of this internship project is to perform scalable data analysis on a la
        Used for interactive development and clean presentation of code
        Supports documentation, markdown, and result visualization
        
-5.Pandas (optional)
+5. Pandas (optional)
        Used for local manipulation of small samples or summaries
         Allows easy conversion of Spark DataFrames for quick testing
         
-6.Matplotlib / Seaborn (optional)
+6. Matplotlib / Seaborn (optional)
         Data visualization libraries
-        Used for plotting trends like trip volume by hour or fare distribution
-#Dataset Description
-*Source: NYC Taxi & Limousine Commission Open Data Portal
+        Used for plotting trends like trip volume by hour or fare distribution 
+# Dataset Description
+* Source: NYC Taxi & Limousine Commission Open Data Portal
 
-*Size: Millions of records per month
+* Size: Millions of records per month
 
-*Format: CSV
+* Format: CSV
 
-*Fields Include:
+* Fields Include:
 
-*Pickup and Dropoff Timestamps
+* Pickup and Dropoff Timestamps
 
-*Trip Distance
+* Trip Distance
 
-*Passenger Count
+* Passenger Count
 
-*Fare Amount
+* Fare Amount
 
-*Pickup Hour (Derived)
+* Pickup Hour (Derived)
 
-*This dataset simulates real-time transportation data that is typically handled by ride-hailing and mobility companies such as Uber, Lyft, or Ola.
+* This dataset simulates real-time transportation data that is typically handled by ride-hailing and mobility companies such as Uber, Lyft, or Ola.
+# Tasks Performed
+1. Initialization
+   Created a Spark session to handle distributed processing.
+   Set configurations for optimized performance.
+2. Data Ingestion
+   Loaded CSV dataset with automatic schema inference using PySpark’s read.csv() function.
+3. Data Cleaning
+   Removed invalid entries such as:
+   Negative/zero distance or fare amounts
+   Trips with no passengers
+4. Feature Engineering
+   Extracted pickup hour from timestamp to analyze ride demand by time of day.
+5. Aggregations
+   Trips by Hour: Grouped data to identify peak travel hours.
+   Average Fare per Mile: Created a custom metric for cost efficiency.
+   Top Longest Trips: Identified high-distance (and potentially high-cost) rides.
+6. (Optional) Visualization
+   Converted Spark output to Pandas for small-scale visualizations like line graphs and histograms.
+# Real-World Applications
+. Transportation Forecasting: Predict high-demand hours to allocate resources efficiently.
+. Dynamic Pricing: Use average fare/mile to improve fare models and customer fairness.
+. Urban Planning: Help cities design better infrastructure based on pickup/dropoff clusters.
+. Anomaly Detection: Detect unusual trips, potential fraud, or system misreporting.
+# Final Deliverables
+. ✔️ Clean and documented PySpark script or Jupyter Notebook
+. ✔️ Sample dataset (Excel/CSV for testing)
+. ✔️ Summary of insights in markdown or PDF format
+. ✔️ (Optional) Visualizations for added clarity
+. ✔️ Ready for submission & certificate issuance
+
+
