@@ -85,9 +85,14 @@ The goal of this internship project is to perform scalable data analysis on a la
 * Anomaly Detection: Detect unusual trips, potential fraud, or system misreporting.
 # Final Deliverables
 * ✔️ Clean and documented PySpark script or Jupyter Notebook
+  
 * ✔️ Sample dataset (Excel/CSV for testing)
-*✔️ Summary of insights in markdown or PDF format
+  
+* ✔️ Summary of insights in markdown or PDF format
+
 * ✔️ (Optional) Visualizations for added clarity
+  
 * ✔️ Ready for submission & certificate issuance
+
 
 
