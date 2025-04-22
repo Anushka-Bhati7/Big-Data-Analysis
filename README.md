@@ -17,18 +17,43 @@ The goal of this internship project is to perform scalable data analysis on a la
 1.PySpark
       Core engine for distributed big data processing
       Enables handling of large datasets across clusters or multiple cores
+      
 2.NYC Yellow Taxi Dataset
        Real-world dataset with millions of taxi trip records
        Includes pickup/dropoff times, fare amounts, distances, etc.
+       
 3.Python
        Programming language used to write and execute PySpark scripts
        Widely used in data science and big data ecosystems
+       
 4.Jupyter Notebook / .py Script
        Used for interactive development and clean presentation of code
        Supports documentation, markdown, and result visualization
+       
 5.Pandas (optional)
        Used for local manipulation of small samples or summaries
         Allows easy conversion of Spark DataFrames for quick testing
+        
 6.Matplotlib / Seaborn (optional)
         Data visualization libraries
         Used for plotting trends like trip volume by hour or fare distribution
+#Dataset Description
+*Source: NYC Taxi & Limousine Commission Open Data Portal
+
+*Size: Millions of records per month
+
+*Format: CSV
+
+*Fields Include:
+
+*Pickup and Dropoff Timestamps
+
+*Trip Distance
+
+*Passenger Count
+
+*Fare Amount
+
+*Pickup Hour (Derived)
+
+*This dataset simulates real-time transportation data that is typically handled by ride-hailing and mobility companies such as Uber, Lyft, or Ola.
