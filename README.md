@@ -14,19 +14,19 @@ MENTOR- NEELA SANTOSH
 #OVERVIEW
 The goal of this internship project is to perform scalable data analysis on a large dataset using PySpark, showcasing how distributed computing can be applied to real-world problems involving high-volume data. We focus on the New York City Taxi Trips dataset, which captures millions of transportation records per month, and derive insights related to ride behavior, cost metrics, and demand trends.
 # Tools & Technologies Used
-1.PySpark
+1. PySpark
       Core engine for distributed big data processing
       Enables handling of large datasets across clusters or multiple cores
       
-2.NYC Yellow Taxi Dataset
+2. NYC Yellow Taxi Dataset
        Real-world dataset with millions of taxi trip records
        Includes pickup/dropoff times, fare amounts, distances, etc.
        
-3.Python
+3. Python
        Programming language used to write and execute PySpark scripts
        Widely used in data science and big data ecosystems
        
-4.Jupyter Notebook / .py Script
+4. Jupyter Notebook / .py Script
        Used for interactive development and clean presentation of code
        Supports documentation, markdown, and result visualization
        
